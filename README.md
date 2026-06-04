@@ -47,6 +47,8 @@ Each entry in `micxr_test.jsonl` contains the following fields:
 | `choices` | Five-way multiple-choice answer options (A–E) |
 | `answer` | The correct answer choice |
 
+**\*\* The `images` field contains relative paths (e.g., `files/p14/.../xxxxx.jpg`); simply set the root to your local MIMIC-CXR-JPG download directory to resolve them.**
+
 ---
 
 ## Images (MIMIC-CXR-JPG)
