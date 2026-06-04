@@ -3,8 +3,8 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2605.15574"><img src="https://img.shields.io/badge/arXiv-2605.15574-b31b1b.svg" alt="arXiv"></a>
   <a href="https://aidaslab.github.io/MI-CXR/"><img src="https://img.shields.io/badge/Project-Page-blue.svg" alt="Project Page"></a>
+  <a href="https://huggingface.co/datasets/steve9712/MI-CXR"><img src="https://img.shields.io/badge/🤗-Dataset-FFD21E.svg" alt="HuggingFace Dataset"></a>
 </p>
-<p align="center"><b>** We are currently uploading the dataset to HuggingFace — please check back soon!</b></p>
 
 ## Abstract
 
