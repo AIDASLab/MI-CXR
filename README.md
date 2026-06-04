@@ -3,8 +3,8 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2605.15574"><img src="https://img.shields.io/badge/arXiv-2605.15574-b31b1b.svg" alt="arXiv"></a>
   <a href="https://aidaslab.github.io/MI-CXR/"><img src="https://img.shields.io/badge/Project-Page-blue.svg" alt="Project Page"></a>
-  <a href="https://github.com/AIDASLab/MI-CXR"><img src="https://img.shields.io/badge/GitHub-MI--CXR-181717.svg?logo=github" alt="GitHub"></a>
 </p>
+<p align="center"><b>** We are currently uploading the dataset to HuggingFace — please check back soon!</b></p>
 
 ## Abstract
 
@@ -17,16 +17,6 @@ MI-CXR comprises five-way multiple-choice questions over five-visit patient time
 - **Global Trajectory Summarization (GTS)**: Characterize the overall disease course across the full timeline.
 
 Evaluating 14 state-of-the-art VLMs reveals low overall performance (29.3% accuracy), only modestly above random guessing. These findings highlight key limitations of current VLMs and establish MI-CXR as a principled benchmark for longitudinal medical reasoning.
-
-### This paper was accepted to ACL 2026 Findings.
-
----
-
-## Notice
-
-- Our paper has been accepted to **ACL 2026 Findings**.
-- The arXiv preprint is available at [https://arxiv.org/abs/2605.15574](https://arxiv.org/abs/2605.15574).
-- We will update the HuggingFace dataset link shortly, once everything is finalized.
 
 ---
 
@@ -67,34 +57,6 @@ MI-CXR uses chest X-ray images from the **MIMIC-CXR-JPG** dataset. To obtain the
 2. After downloading, either:
    - Create a symbolic link from this repository's `files/` directory to the `files/` directory in MIMIC-CXR-JPG, or
    - Modify the image paths in the dataset configuration to match your local setup.
-
----
-
-## How to Use
-
-**1. Clone this repository.**
-```bash
-git clone https://github.com/AIDASLab/MI-CXR.git
-cd MI-CXR
-```
-
-**2. Install dependencies.**
-```bash
-pip install -r requirements.txt
-```
-
-**3. Set up image paths.**
-
-Either symlink the MIMIC-CXR-JPG `files/` directory:
-```bash
-ln -s /path/to/mimic-cxr-jpg/files ./files
-```
-Or update the image path configuration in `config.yaml`.
-
-**4. Run evaluation.**
-```bash
-python evaluate.py --config config.yaml --model <model_name>
-```
 
 ---
 
